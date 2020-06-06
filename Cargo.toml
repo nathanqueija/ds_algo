@@ -1,5 +1,5 @@
 [package]
-name = "data_structures_and_algorithms"
+name = "ds_algo"
 version = "0.1.0"
 authors = ["Nathan <nathanqcam@gmail.com>"]
 edition = "2018"
