@@ -4,6 +4,7 @@
 //! And you move all the numbers that are greater than the pivot to the right
 //! Then you split the list around the pivot and then you execute quick sort in the next halves
 //! Basically you do the same process until all the pivots are sorted which means that the whole list is sorted
+//! [Wanna have fun?](https://www.youtube.com/watch?v=ywWBy6J5gz8)
 
 use std::fmt::Debug;
 

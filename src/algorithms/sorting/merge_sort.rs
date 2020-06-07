@@ -9,6 +9,7 @@
 //! ## What is the runtime complexity of a Merge Sort?
 //! `O(n * log(n))` because the number of iterations will decrease as the number of halves grow because
 //!  we would have less items to sort. So this is more performant than O(n^2)
+//! [Wanna have fun?](https://www.youtube.com/watch?v=XaqR3G_NVoo)
 
 use std::fmt::Debug;
 

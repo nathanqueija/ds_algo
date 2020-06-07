@@ -1,11 +1,14 @@
-//! Classic sorting algorithms
+//! # Bubble Sort
 //!
 //! This module contains different sorting algorithms
+//! This bubble sort algorithm will order any array that implements that `PartialOrd` trait, i. e.,
+//! any data that can be compared using `> < >= <=`
+//! The core of this algorithm is as for each item in a list of n element it will iterate the list n**2 times
+//!  and compare two elements. If the first element is greater the algorithm will swap them.
+//! [Wanna have fun?](https://www.youtube.com/watch?v=lyZQPjUT5B4)
+///
+///
 
-/// This bubble sort algorithm will order any array that implements that `PartialOrd` trait, i. e.,
-/// any data that can be compared using `> < >= <=`
-/// The core of this algorithm is as for each item in a list of n element it will iterate the list n**2 times
-///  and compare two elements. If the first element is greater the algorithm will swap them.
 /// # Examples
 ///
 /// ```
