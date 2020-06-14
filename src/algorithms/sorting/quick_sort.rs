@@ -6,6 +6,7 @@
 //! Basically you do the same process until all the pivots are sorted which means that the whole list is sorted
 //! [Wanna have fun?](https://www.youtube.com/watch?v=ywWBy6J5gz8)
 
+use crate::utils::rand::generate_random_number;
 use std::fmt::Debug;
 
 // Move first element to the correct place
@@ -13,7 +14,9 @@ use std::fmt::Debug;
 // Everything higher should be after it
 // Return pivot's position to the list can be split around the pivot
 fn pivot<T: PartialOrd>(list: &mut [T]) -> usize {
-    let mut pivot = 0;
+    let mut pivot = generate_random_number(list.len());
+    list.swap(pivot, 0);
+    pivot = 0;
 
     for i in 1..list.len() {
         if list[i] < list[pivot] {
